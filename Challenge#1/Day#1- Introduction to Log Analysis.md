@@ -4,10 +4,6 @@
 The objective of this lab is to introduce students to the basics of **log analysis** and demonstrate how logs from different systems can be collected, analyzed, and used for security monitoring. Students will learn how to generate simple logs on both Windows and Linux systems and how SOC Analysts use logs to detect security incidents.
 
 ---
-## **▶️Video Tutorial**
-
-[![▶️Watch the video](https://img.youtube.com/vi/kzEutcdJVMw/maxresdefault.jpg)](https://youtu.be/kzEutcdJVMw)
-
 ---
 ## **What is a Log?**
 A **log** is a record of events in a system that captures important actions like errors, warnings, or user activities. These logs contain key information such as:

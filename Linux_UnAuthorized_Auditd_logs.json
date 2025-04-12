@@ -1,0 +1,6594 @@
+[
+  {
+    "timestamp": "2025-03-23T22:20:18.600798",
+    "uid": 1011,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T20:00:24.598216",
+    "uid": 1009,
+    "event_type": "SYSCALL_DENIED",
+    "process": "mv",
+    "exe": "/bin/mv",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/var/log/auth.log",
+    "inode": 119272,
+    "audit_id": 8297
+  },
+  {
+    "timestamp": "2025-03-23T11:41:50.597256",
+    "uid": 1016,
+    "event_type": "SYSCALL_DENIED",
+    "process": "mv",
+    "exe": "/usr/bin/less",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/var/log/syslog",
+    "inode": 120012,
+    "audit_id": 9358
+  },
+  {
+    "timestamp": "2025-03-24T08:31:28.596826",
+    "uid": 1011,
+    "event_type": "SYSCALL_DENIED",
+    "process": "less",
+    "exe": "/usr/bin/nano",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/root/.ssh/authorized_keys",
+    "inode": 109158,
+    "audit_id": 9328
+  },
+  {
+    "timestamp": "2025-03-24T06:24:08.601346",
+    "uid": 1003,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T12:57:02.597086",
+    "uid": 1001,
+    "event_type": "AVC_DENIED",
+    "process": "cp",
+    "path": "/home/user/.ssh/id_rsa",
+    "inode": 133684,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T09:12:47.599253",
+    "uid": 1018,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T16:37:03.596217",
+    "uid": 1011,
+    "event_type": "AVC_DENIED",
+    "process": "nano",
+    "path": "/root/.bash_history",
+    "inode": 169416,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T05:23:06.599231",
+    "uid": 1011,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T21:16:55.597896",
+    "uid": 1008,
+    "event_type": "SYSCALL_DENIED",
+    "process": "vim",
+    "exe": "/usr/bin/nano",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/usr/bin/wget",
+    "inode": 131407,
+    "audit_id": 6081
+  },
+  {
+    "timestamp": "2025-03-24T01:36:17.597367",
+    "uid": 1000,
+    "event_type": "AVC_DENIED",
+    "process": "vim",
+    "path": "/usr/bin/curl",
+    "inode": 165237,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T23:33:26.601296",
+    "uid": 1000,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T12:45:34.602143",
+    "uid": 1015,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T19:16:45.602340",
+    "uid": 1002,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T08:57:00.596060",
+    "uid": 1002,
+    "event_type": "AVC_DENIED",
+    "process": "cat",
+    "path": "/etc/hosts",
+    "inode": 123850,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T18:04:53.599782",
+    "uid": 1013,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T03:36:31.597245",
+    "uid": 1005,
+    "event_type": "AVC_DENIED",
+    "process": "cat",
+    "path": "/home/user/.bashrc",
+    "inode": 129848,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T08:42:59.600906",
+    "uid": 1015,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T10:08:06.599509",
+    "uid": 1012,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T14:14:29.597377",
+    "uid": 1002,
+    "event_type": "AVC_DENIED",
+    "process": "cp",
+    "path": "/usr/bin/curl",
+    "inode": 152608,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T10:49:08.600456",
+    "uid": 1006,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T00:07:03.596553",
+    "uid": 1015,
+    "event_type": "AVC_DENIED",
+    "process": "cp",
+    "path": "/home/user/.ssh/id_rsa",
+    "inode": 186907,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T12:47:57.601668",
+    "uid": 1006,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T02:11:06.601661",
+    "uid": 1010,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T08:12:54.597776",
+    "uid": 1000,
+    "event_type": "AVC_DENIED",
+    "process": "cat",
+    "path": "/usr/bin/curl",
+    "inode": 182958,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T03:35:54.599790",
+    "uid": 1013,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T22:53:30.601360",
+    "uid": 1006,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T08:57:16.597497",
+    "uid": 1017,
+    "event_type": "AVC_DENIED",
+    "process": "vim",
+    "path": "/etc/passwd",
+    "inode": 157912,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T10:14:52.598144",
+    "uid": 1019,
+    "event_type": "SYSCALL_DENIED",
+    "process": "vim",
+    "exe": "/usr/bin/vim",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/sudoers",
+    "inode": 171297,
+    "audit_id": 7242
+  },
+  {
+    "timestamp": "2025-03-24T05:22:57.600302",
+    "uid": 1003,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T17:26:10.598884",
+    "uid": 1017,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T08:55:00.599813",
+    "uid": 1014,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T12:36:42.598772",
+    "uid": 1006,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T23:56:54.596631",
+    "uid": 1004,
+    "event_type": "SYSCALL_DENIED",
+    "process": "mv",
+    "exe": "/bin/mv",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/hosts",
+    "inode": 163726,
+    "audit_id": 9603
+  },
+  {
+    "timestamp": "2025-03-24T08:33:35.602405",
+    "uid": 1010,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T09:54:45.599160",
+    "uid": 1007,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T13:32:28.596912",
+    "uid": 1014,
+    "event_type": "SYSCALL_DENIED",
+    "process": "mv",
+    "exe": "/bin/cp",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/hosts",
+    "inode": 160070,
+    "audit_id": 6919
+  },
+  {
+    "timestamp": "2025-03-24T08:01:13.596956",
+    "uid": 1019,
+    "event_type": "AVC_DENIED",
+    "process": "cp",
+    "path": "/etc/hosts",
+    "inode": 115393,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T22:17:04.600827",
+    "uid": 1008,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T13:25:10.597341",
+    "uid": 1016,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cat",
+    "exe": "/usr/bin/nano",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/usr/bin/wget",
+    "inode": 178969,
+    "audit_id": 6312
+  },
+  {
+    "timestamp": "2025-03-23T15:00:46.600512",
+    "uid": 1016,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T08:04:33.598764",
+    "uid": 1017,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T08:18:50.597322",
+    "uid": 1007,
+    "event_type": "SYSCALL_DENIED",
+    "process": "nano",
+    "exe": "/usr/bin/vim",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/root/.ssh/authorized_keys",
+    "inode": 110912,
+    "audit_id": 4194
+  },
+  {
+    "timestamp": "2025-03-23T15:57:12.599857",
+    "uid": 1018,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T21:15:26.602269",
+    "uid": 1015,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T19:24:18.597298",
+    "uid": 1008,
+    "event_type": "AVC_DENIED",
+    "process": "less",
+    "path": "/bin/bash",
+    "inode": 190670,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T22:33:43.601218",
+    "uid": 1016,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T11:03:30.596934",
+    "uid": 1010,
+    "event_type": "SYSCALL_DENIED",
+    "process": "less",
+    "exe": "/usr/bin/nano",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/sudoers",
+    "inode": 173633,
+    "audit_id": 7332
+  },
+  {
+    "timestamp": "2025-03-23T12:25:10.597810",
+    "uid": 1019,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cat",
+    "exe": "/usr/bin/cat",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/var/log/auth.log",
+    "inode": 184845,
+    "audit_id": 8225
+  },
+  {
+    "timestamp": "2025-03-23T15:28:42.597287",
+    "uid": 1018,
+    "event_type": "AVC_DENIED",
+    "process": "mv",
+    "path": "/etc/passwd",
+    "inode": 172901,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T21:52:06.601498",
+    "uid": 1018,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T15:17:59.599997",
+    "uid": 1000,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T14:08:21.600149",
+    "uid": 1014,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T17:35:59.602240",
+    "uid": 1003,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T13:12:42.601324",
+    "uid": 1013,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T17:23:18.597601",
+    "uid": 1011,
+    "event_type": "SYSCALL_DENIED",
+    "process": "nano",
+    "exe": "/bin/mv",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/root/.ssh/authorized_keys",
+    "inode": 144032,
+    "audit_id": 1559
+  },
+  {
+    "timestamp": "2025-03-23T18:24:37.601526",
+    "uid": 1007,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T08:47:30.599603",
+    "uid": 1001,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T08:21:08.600478",
+    "uid": 1011,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T16:06:47.597907",
+    "uid": 1019,
+    "event_type": "SYSCALL_DENIED",
+    "process": "nano",
+    "exe": "/usr/bin/cat",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/root/.bash_history",
+    "inode": 170345,
+    "audit_id": 1420
+  },
+  {
+    "timestamp": "2025-03-24T10:07:02.600812",
+    "uid": 1018,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T19:34:29.596114",
+    "uid": 1008,
+    "event_type": "AVC_DENIED",
+    "process": "nano",
+    "path": "/home/user/.bashrc",
+    "inode": 146803,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T15:48:50.598260",
+    "uid": 1009,
+    "event_type": "SYSCALL_DENIED",
+    "process": "mv",
+    "exe": "/bin/cp",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/rc.local",
+    "inode": 145519,
+    "audit_id": 1738
+  },
+  {
+    "timestamp": "2025-03-24T00:15:59.597538",
+    "uid": 1007,
+    "event_type": "AVC_DENIED",
+    "process": "vim",
+    "path": "/etc/ssh/sshd_config",
+    "inode": 162776,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T04:51:28.599181",
+    "uid": 1008,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T13:29:00.597732",
+    "uid": 1008,
+    "event_type": "SYSCALL_DENIED",
+    "process": "less",
+    "exe": "/usr/bin/vim",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/root/.ssh/authorized_keys",
+    "inode": 156228,
+    "audit_id": 3044
+  },
+  {
+    "timestamp": "2025-03-24T08:55:32.600104",
+    "uid": 1015,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T20:38:44.602261",
+    "uid": 1016,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T03:05:53.597710",
+    "uid": 1008,
+    "event_type": "SYSCALL_DENIED",
+    "process": "less",
+    "exe": "/usr/bin/less",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/passwd",
+    "inode": 160589,
+    "audit_id": 5855
+  },
+  {
+    "timestamp": "2025-03-24T07:07:38.597755",
+    "uid": 1011,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cp",
+    "exe": "/bin/mv",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/root/.bash_history",
+    "inode": 182658,
+    "audit_id": 9354
+  },
+  {
+    "timestamp": "2025-03-23T21:35:51.600575",
+    "uid": 1012,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T02:42:21.598913",
+    "uid": 1003,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T00:19:37.596643",
+    "uid": 1014,
+    "event_type": "SYSCALL_DENIED",
+    "process": "vim",
+    "exe": "/usr/bin/nano",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/crontab",
+    "inode": 182818,
+    "audit_id": 4249
+  },
+  {
+    "timestamp": "2025-03-24T07:35:19.600820",
+    "uid": 1002,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T05:15:42.599834",
+    "uid": 1016,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T23:05:54.600192",
+    "uid": 1017,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T15:31:57.596192",
+    "uid": 1014,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cp",
+    "exe": "/usr/bin/nano",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/bin/bash",
+    "inode": 100615,
+    "audit_id": 5256
+  },
+  {
+    "timestamp": "2025-03-23T08:49:25.601147",
+    "uid": 1002,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T23:25:51.600669",
+    "uid": 1015,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T20:01:02.598227",
+    "uid": 1009,
+    "event_type": "AVC_DENIED",
+    "process": "mv",
+    "path": "/home/user/.ssh/id_rsa",
+    "inode": 154099,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T22:30:41.601074",
+    "uid": 1013,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T21:24:39.598713",
+    "uid": 1010,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T16:32:26.597875",
+    "uid": 1019,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cp",
+    "exe": "/usr/bin/nano",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/bin/bash",
+    "inode": 193879,
+    "audit_id": 8194
+  },
+  {
+    "timestamp": "2025-03-24T00:07:28.600323",
+    "uid": 1011,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T08:33:25.601169",
+    "uid": 1006,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T18:59:28.599516",
+    "uid": 1004,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T09:46:34.597766",
+    "uid": 1017,
+    "event_type": "AVC_DENIED",
+    "process": "cat",
+    "path": "/etc/hosts",
+    "inode": 126808,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T01:21:56.600380",
+    "uid": 1018,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T15:21:29.601239",
+    "uid": 1007,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T02:05:44.600913",
+    "uid": 1000,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T19:26:51.598295",
+    "uid": 1002,
+    "event_type": "AVC_DENIED",
+    "process": "cp",
+    "path": "/etc/shadow",
+    "inode": 162054,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T10:31:30.602254",
+    "uid": 1005,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T03:03:36.600470",
+    "uid": 1014,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T10:06:54.601625",
+    "uid": 1011,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T01:06:15.602247",
+    "uid": 1010,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T01:23:27.602319",
+    "uid": 1015,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T12:21:11.599326",
+    "uid": 1017,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T20:12:47.599667",
+    "uid": 1015,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T06:40:55.599411",
+    "uid": 1000,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T15:53:54.600244",
+    "uid": 1006,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T17:16:36.602326",
+    "uid": 1002,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T02:51:09.599023",
+    "uid": 1007,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T10:12:49.602375",
+    "uid": 1001,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T23:42:40.598070",
+    "uid": 1016,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cp",
+    "exe": "/bin/mv",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/sudoers",
+    "inode": 124211,
+    "audit_id": 9667
+  },
+  {
+    "timestamp": "2025-03-23T19:24:19.600331",
+    "uid": 1014,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T08:00:01.596923",
+    "uid": 1010,
+    "event_type": "AVC_DENIED",
+    "process": "mv",
+    "path": "/usr/bin/wget",
+    "inode": 126904,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T04:28:03.596655",
+    "uid": 1007,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cat",
+    "exe": "/bin/mv",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/hosts",
+    "inode": 192451,
+    "audit_id": 7010
+  },
+  {
+    "timestamp": "2025-03-23T16:24:43.600288",
+    "uid": 1014,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T09:28:16.599753",
+    "uid": 1007,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T03:18:51.599611",
+    "uid": 1019,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T21:06:18.600017",
+    "uid": 1013,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T09:53:31.602196",
+    "uid": 1010,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T13:13:27.601232",
+    "uid": 1019,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T08:37:04.600740",
+    "uid": 1019,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T02:33:55.601060",
+    "uid": 1019,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T12:28:03.597831",
+    "uid": 1005,
+    "event_type": "SYSCALL_DENIED",
+    "process": "mv",
+    "exe": "/usr/bin/cat",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/home/user/.bashrc",
+    "inode": 150496,
+    "audit_id": 9977
+  },
+  {
+    "timestamp": "2025-03-24T02:35:56.598358",
+    "uid": 1004,
+    "event_type": "AVC_DENIED",
+    "process": "cat",
+    "path": "/bin/bash",
+    "inode": 164829,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T01:15:40.599297",
+    "uid": 1007,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T17:40:12.600776",
+    "uid": 1007,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T01:20:40.599710",
+    "uid": 1015,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T19:26:13.600641",
+    "uid": 1001,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T08:37:11.600463",
+    "uid": 1009,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T09:05:53.596541",
+    "uid": 1006,
+    "event_type": "SYSCALL_DENIED",
+    "process": "mv",
+    "exe": "/usr/bin/vim",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/shadow",
+    "inode": 186143,
+    "audit_id": 1054
+  },
+  {
+    "timestamp": "2025-03-23T21:04:59.600540",
+    "uid": 1018,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T10:19:08.597224",
+    "uid": 1004,
+    "event_type": "AVC_DENIED",
+    "process": "cat",
+    "path": "/home/user/.ssh/id_rsa",
+    "inode": 135750,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T01:08:53.598890",
+    "uid": 1006,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T00:40:49.597266",
+    "uid": 1015,
+    "event_type": "AVC_DENIED",
+    "process": "cp",
+    "path": "/etc/ssh/sshd_config",
+    "inode": 185395,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T11:05:02.602383",
+    "uid": 1000,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T11:16:28.598238",
+    "uid": 1018,
+    "event_type": "AVC_DENIED",
+    "process": "less",
+    "path": "/var/log/auth.log",
+    "inode": 103312,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T08:16:51.597452",
+    "uid": 1007,
+    "event_type": "SYSCALL_DENIED",
+    "process": "less",
+    "exe": "/usr/bin/nano",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/usr/bin/wget",
+    "inode": 135263,
+    "audit_id": 4160
+  },
+  {
+    "timestamp": "2025-03-23T21:31:56.600387",
+    "uid": 1013,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T01:05:27.601504",
+    "uid": 1004,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T02:09:49.598705",
+    "uid": 1015,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T08:09:14.601553",
+    "uid": 1003,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T04:46:51.601463",
+    "uid": 1018,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T05:55:47.601568",
+    "uid": 1000,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T10:50:07.599282",
+    "uid": 1010,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T00:57:12.600281",
+    "uid": 1015,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T07:29:36.601080",
+    "uid": 1008,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T12:58:17.601390",
+    "uid": 1009,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T11:27:59.602368",
+    "uid": 1000,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T23:26:16.596178",
+    "uid": 1006,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cat",
+    "exe": "/usr/bin/vim",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/usr/bin/curl",
+    "inode": 106628,
+    "audit_id": 1213
+  },
+  {
+    "timestamp": "2025-03-23T15:52:51.599841",
+    "uid": 1006,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T18:42:51.598956",
+    "uid": 1000,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T09:59:12.601246",
+    "uid": 1003,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T03:40:03.597720",
+    "uid": 1017,
+    "event_type": "SYSCALL_DENIED",
+    "process": "mv",
+    "exe": "/usr/bin/vim",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/hosts",
+    "inode": 108501,
+    "audit_id": 5068
+  },
+  {
+    "timestamp": "2025-03-24T03:29:04.599646",
+    "uid": 1009,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T02:05:44.597097",
+    "uid": 1009,
+    "event_type": "AVC_DENIED",
+    "process": "mv",
+    "path": "/root/.bash_history",
+    "inode": 164867,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T04:02:54.596837",
+    "uid": 1009,
+    "event_type": "AVC_DENIED",
+    "process": "mv",
+    "path": "/home/user/.bashrc",
+    "inode": 191888,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T00:51:48.599462",
+    "uid": 1001,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T22:13:58.597463",
+    "uid": 1015,
+    "event_type": "SYSCALL_DENIED",
+    "process": "nano",
+    "exe": "/usr/bin/nano",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/shadow",
+    "inode": 105629,
+    "audit_id": 9404
+  },
+  {
+    "timestamp": "2025-03-24T08:36:21.599081",
+    "uid": 1017,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T22:07:16.599426",
+    "uid": 1009,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T09:49:07.596100",
+    "uid": 1006,
+    "event_type": "SYSCALL_DENIED",
+    "process": "mv",
+    "exe": "/usr/bin/nano",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/usr/bin/wget",
+    "inode": 172228,
+    "audit_id": 6544
+  },
+  {
+    "timestamp": "2025-03-23T18:02:48.600135",
+    "uid": 1008,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T00:38:48.600634",
+    "uid": 1010,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T03:17:10.599311",
+    "uid": 1009,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T17:29:03.602305",
+    "uid": 1016,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T07:53:37.601470",
+    "uid": 1006,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T09:21:21.599088",
+    "uid": 1006,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T16:24:54.600011",
+    "uid": 1008,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T00:33:56.599618",
+    "uid": 1005,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T20:17:47.599575",
+    "uid": 1013,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T19:02:29.600863",
+    "uid": 1009,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T04:39:42.598934",
+    "uid": 1007,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T21:27:47.601053",
+    "uid": 1017,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T00:49:33.598058",
+    "uid": 1009,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cat",
+    "exe": "/usr/bin/nano",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/shadow",
+    "inode": 103407,
+    "audit_id": 2634
+  },
+  {
+    "timestamp": "2025-03-23T16:01:16.602114",
+    "uid": 1009,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T15:42:40.600031",
+    "uid": 1005,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T10:11:30.601609",
+    "uid": 1013,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T09:36:16.599588",
+    "uid": 1014,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T13:10:52.599060",
+    "uid": 1013,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T12:27:06.601266",
+    "uid": 1014,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T18:48:16.596576",
+    "uid": 1012,
+    "event_type": "AVC_DENIED",
+    "process": "cp",
+    "path": "/etc/crontab",
+    "inode": 160067,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T19:25:27.601547",
+    "uid": 1000,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T09:02:10.597195",
+    "uid": 1000,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cat",
+    "exe": "/bin/cp",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/usr/bin/curl",
+    "inode": 172077,
+    "audit_id": 8559
+  },
+  {
+    "timestamp": "2025-03-24T11:06:28.599383",
+    "uid": 1003,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T14:10:12.598157",
+    "uid": 1011,
+    "event_type": "AVC_DENIED",
+    "process": "cp",
+    "path": "/root/.ssh/authorized_keys",
+    "inode": 161960,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T09:03:51.596127",
+    "uid": 1006,
+    "event_type": "AVC_DENIED",
+    "process": "cat",
+    "path": "/etc/rc.local",
+    "inode": 116422,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T02:14:31.601353",
+    "uid": 1001,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T07:02:01.598316",
+    "uid": 1006,
+    "event_type": "SYSCALL_DENIED",
+    "process": "less",
+    "exe": "/bin/mv",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/home/user/.bashrc",
+    "inode": 124219,
+    "audit_id": 6055
+  },
+  {
+    "timestamp": "2025-03-24T04:30:01.597309",
+    "uid": 1011,
+    "event_type": "AVC_DENIED",
+    "process": "mv",
+    "path": "/root/.ssh/authorized_keys",
+    "inode": 196577,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T23:27:08.597940",
+    "uid": 1001,
+    "event_type": "AVC_DENIED",
+    "process": "mv",
+    "path": "/var/log/syslog",
+    "inode": 145299,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T08:09:38.601653",
+    "uid": 1018,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T11:04:53.598853",
+    "uid": 1007,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T04:19:42.596816",
+    "uid": 1010,
+    "event_type": "AVC_DENIED",
+    "process": "less",
+    "path": "/etc/ssh/sshd_config",
+    "inode": 131556,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T09:22:09.601382",
+    "uid": 1009,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T10:57:43.599494",
+    "uid": 1015,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T08:49:49.601589",
+    "uid": 1012,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T19:22:40.600310",
+    "uid": 1002,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T22:49:46.596978",
+    "uid": 1012,
+    "event_type": "AVC_DENIED",
+    "process": "nano",
+    "path": "/etc/hosts",
+    "inode": 142291,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T04:24:50.600402",
+    "uid": 1007,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T19:05:29.598686",
+    "uid": 1013,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T10:55:36.601426",
+    "uid": 1002,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T10:08:45.597354",
+    "uid": 1019,
+    "event_type": "SYSCALL_DENIED",
+    "process": "nano",
+    "exe": "/bin/mv",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/rc.local",
+    "inode": 100095,
+    "audit_id": 6435
+  },
+  {
+    "timestamp": "2025-03-23T10:27:14.599938",
+    "uid": 1008,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T15:58:41.598205",
+    "uid": 1017,
+    "event_type": "AVC_DENIED",
+    "process": "nano",
+    "path": "/var/log/auth.log",
+    "inode": 146740,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T05:59:56.598869",
+    "uid": 1000,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T01:46:23.599745",
+    "uid": 1005,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T10:50:01.598306",
+    "uid": 1013,
+    "event_type": "AVC_DENIED",
+    "process": "nano",
+    "path": "/etc/crontab",
+    "inode": 120069,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T19:54:50.597559",
+    "uid": 1003,
+    "event_type": "AVC_DENIED",
+    "process": "cat",
+    "path": "/etc/passwd",
+    "inode": 169587,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T15:14:04.601154",
+    "uid": 1009,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T03:33:15.600842",
+    "uid": 1014,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T08:08:29.596847",
+    "uid": 1003,
+    "event_type": "AVC_DENIED",
+    "process": "cat",
+    "path": "/home/user/.ssh/id_rsa",
+    "inode": 181834,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T00:51:29.602284",
+    "uid": 1010,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T06:18:35.598388",
+    "uid": 1011,
+    "event_type": "SYSCALL_DENIED",
+    "process": "vim",
+    "exe": "/bin/mv",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/shadow",
+    "inode": 117102,
+    "audit_id": 6762
+  },
+  {
+    "timestamp": "2025-03-23T14:05:21.598193",
+    "uid": 1010,
+    "event_type": "AVC_DENIED",
+    "process": "less",
+    "path": "/etc/passwd",
+    "inode": 143423,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T03:39:21.600920",
+    "uid": 1009,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T10:58:47.597677",
+    "uid": 1017,
+    "event_type": "AVC_DENIED",
+    "process": "nano",
+    "path": "/var/log/auth.log",
+    "inode": 121999,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T05:01:54.599038",
+    "uid": 1004,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T20:51:04.598824",
+    "uid": 1005,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T08:11:14.602203",
+    "uid": 1004,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T20:23:59.597854",
+    "uid": 1018,
+    "event_type": "AVC_DENIED",
+    "process": "cat",
+    "path": "/etc/hosts",
+    "inode": 195484,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T04:45:50.596766",
+    "uid": 1009,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cp",
+    "exe": "/usr/bin/vim",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/var/log/auth.log",
+    "inode": 195440,
+    "audit_id": 9015
+  },
+  {
+    "timestamp": "2025-03-23T11:07:15.601491",
+    "uid": 1011,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T03:08:59.600337",
+    "uid": 1014,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T09:39:51.602397",
+    "uid": 1012,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T10:44:01.598845",
+    "uid": 1009,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T14:00:56.597972",
+    "uid": 1011,
+    "event_type": "SYSCALL_DENIED",
+    "process": "vim",
+    "exe": "/usr/bin/less",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/passwd",
+    "inode": 199668,
+    "audit_id": 1943
+  },
+  {
+    "timestamp": "2025-03-24T10:43:47.597787",
+    "uid": 1004,
+    "event_type": "AVC_DENIED",
+    "process": "vim",
+    "path": "/usr/bin/curl",
+    "inode": 107470,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T11:36:40.602225",
+    "uid": 1018,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T10:07:35.599319",
+    "uid": 1018,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T01:31:02.598337",
+    "uid": 1015,
+    "event_type": "AVC_DENIED",
+    "process": "less",
+    "path": "/usr/bin/curl",
+    "inode": 109417,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T16:20:03.597549",
+    "uid": 1019,
+    "event_type": "AVC_DENIED",
+    "process": "less",
+    "path": "/etc/crontab",
+    "inode": 160382,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T10:38:25.597569",
+    "uid": 1004,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cp",
+    "exe": "/usr/bin/cat",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/var/log/syslog",
+    "inode": 192094,
+    "audit_id": 5771
+  },
+  {
+    "timestamp": "2025-03-24T02:43:36.596086",
+    "uid": 1011,
+    "event_type": "SYSCALL_DENIED",
+    "process": "mv",
+    "exe": "/usr/bin/cat",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/home/user/.ssh/id_rsa",
+    "inode": 165790,
+    "audit_id": 6251
+  },
+  {
+    "timestamp": "2025-03-23T15:55:25.601288",
+    "uid": 1009,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T08:33:13.596030",
+    "uid": 1007,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cat",
+    "exe": "/usr/bin/vim",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/usr/bin/wget",
+    "inode": 155554,
+    "audit_id": 4620
+  },
+  {
+    "timestamp": "2025-03-24T04:52:43.599703",
+    "uid": 1014,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T10:38:50.596072",
+    "uid": 1007,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cp",
+    "exe": "/usr/bin/less",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/usr/bin/curl",
+    "inode": 134655,
+    "audit_id": 4583
+  },
+  {
+    "timestamp": "2025-03-23T09:46:38.600054",
+    "uid": 1005,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T09:00:32.599002",
+    "uid": 1017,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T12:46:44.596492",
+    "uid": 1007,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cp",
+    "exe": "/usr/bin/less",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/shadow",
+    "inode": 153625,
+    "audit_id": 1896
+  },
+  {
+    "timestamp": "2025-03-24T04:52:34.597234",
+    "uid": 1010,
+    "event_type": "AVC_DENIED",
+    "process": "vim",
+    "path": "/var/log/syslog",
+    "inode": 108547,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T18:35:18.602332",
+    "uid": 1003,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T10:11:13.597387",
+    "uid": 1001,
+    "event_type": "AVC_DENIED",
+    "process": "vim",
+    "path": "/etc/crontab",
+    "inode": 111373,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T12:11:59.602076",
+    "uid": 1017,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T10:39:38.598942",
+    "uid": 1015,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T21:03:45.599146",
+    "uid": 1002,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T22:27:09.599738",
+    "uid": 1017,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T22:33:40.596967",
+    "uid": 1016,
+    "event_type": "AVC_DENIED",
+    "process": "vim",
+    "path": "/etc/rc.local",
+    "inode": 120174,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T15:16:00.598421",
+    "uid": 1011,
+    "event_type": "AVC_DENIED",
+    "process": "cp",
+    "path": "/usr/bin/wget",
+    "inode": 105703,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T21:28:42.601095",
+    "uid": 1009,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T10:38:47.599153",
+    "uid": 1009,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T19:46:16.601519",
+    "uid": 1018,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T06:22:31.599531",
+    "uid": 1017,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T11:10:01.602062",
+    "uid": 1005,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T19:45:12.597408",
+    "uid": 1003,
+    "event_type": "SYSCALL_DENIED",
+    "process": "less",
+    "exe": "/usr/bin/vim",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/usr/bin/wget",
+    "inode": 135018,
+    "audit_id": 2617
+  },
+  {
+    "timestamp": "2025-03-24T04:46:47.597654",
+    "uid": 1009,
+    "event_type": "SYSCALL_DENIED",
+    "process": "nano",
+    "exe": "/usr/bin/nano",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/usr/bin/wget",
+    "inode": 184705,
+    "audit_id": 2086
+  },
+  {
+    "timestamp": "2025-03-23T13:23:53.600491",
+    "uid": 1005,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T08:52:30.596946",
+    "uid": 1004,
+    "event_type": "AVC_DENIED",
+    "process": "less",
+    "path": "/etc/ssh/sshd_config",
+    "inode": 137926,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T19:59:03.598779",
+    "uid": 1009,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T20:14:35.601575",
+    "uid": 1000,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T04:39:24.601540",
+    "uid": 1014,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T16:15:35.600662",
+    "uid": 1002,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T10:02:57.599074",
+    "uid": 1005,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T14:54:28.602091",
+    "uid": 1010,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T19:00:16.599945",
+    "uid": 1002,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T05:56:57.600024",
+    "uid": 1004,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T11:05:21.600223",
+    "uid": 1004,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T21:44:43.600178",
+    "uid": 1000,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T16:41:13.600068",
+    "uid": 1010,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T23:02:29.600561",
+    "uid": 1017,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T09:57:49.597527",
+    "uid": 1010,
+    "event_type": "SYSCALL_DENIED",
+    "process": "nano",
+    "exe": "/usr/bin/less",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/root/.ssh/authorized_keys",
+    "inode": 155190,
+    "audit_id": 4539
+  },
+  {
+    "timestamp": "2025-03-24T01:34:40.598123",
+    "uid": 1009,
+    "event_type": "AVC_DENIED",
+    "process": "mv",
+    "path": "/home/user/.bashrc",
+    "inode": 132313,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T20:14:40.599887",
+    "uid": 1016,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T16:41:58.600046",
+    "uid": 1004,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T12:37:53.597441",
+    "uid": 1015,
+    "event_type": "SYSCALL_DENIED",
+    "process": "vim",
+    "exe": "/bin/cp",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/rc.local",
+    "inode": 180605,
+    "audit_id": 3137
+  },
+  {
+    "timestamp": "2025-03-24T00:34:21.599872",
+    "uid": 1000,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T10:15:39.599775",
+    "uid": 1018,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T18:23:47.600111",
+    "uid": 1015,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T15:49:39.596804",
+    "uid": 1005,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cp",
+    "exe": "/usr/bin/nano",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/usr/bin/wget",
+    "inode": 165677,
+    "audit_id": 1647
+  },
+  {
+    "timestamp": "2025-03-23T19:01:36.598920",
+    "uid": 1000,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T00:53:12.597419",
+    "uid": 1002,
+    "event_type": "AVC_DENIED",
+    "process": "cp",
+    "path": "/usr/bin/curl",
+    "inode": 116131,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T04:27:34.597688",
+    "uid": 1004,
+    "event_type": "SYSCALL_DENIED",
+    "process": "nano",
+    "exe": "/usr/bin/vim",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/home/user/.bashrc",
+    "inode": 143177,
+    "audit_id": 3927
+  },
+  {
+    "timestamp": "2025-03-23T14:51:42.598963",
+    "uid": 1014,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T21:12:52.600295",
+    "uid": 1017,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T21:44:11.601140",
+    "uid": 1005,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T20:36:06.596858",
+    "uid": 1010,
+    "event_type": "SYSCALL_DENIED",
+    "process": "less",
+    "exe": "/bin/cp",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/usr/bin/curl",
+    "inode": 135902,
+    "audit_id": 6089
+  },
+  {
+    "timestamp": "2025-03-24T05:35:05.600899",
+    "uid": 1001,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T11:36:38.598993",
+    "uid": 1012,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T10:43:47.599440",
+    "uid": 1010,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T01:42:54.599138",
+    "uid": 1009,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T02:01:44.599901",
+    "uid": 1009,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T23:40:55.600259",
+    "uid": 1017,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T21:16:23.601280",
+    "uid": 1009,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T11:01:02.600784",
+    "uid": 1007,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T00:04:18.601595",
+    "uid": 1014,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T23:35:53.600082",
+    "uid": 1015,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T05:05:26.599960",
+    "uid": 1002,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T03:24:55.600097",
+    "uid": 1006,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T08:27:45.599806",
+    "uid": 1005,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T22:56:45.595905",
+    "uid": 1002,
+    "event_type": "AVC_DENIED",
+    "process": "vim",
+    "path": "/root/.ssh/authorized_keys",
+    "inode": 128146,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T04:16:40.599418",
+    "uid": 1011,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T05:07:00.598134",
+    "uid": 1017,
+    "event_type": "AVC_DENIED",
+    "process": "cat",
+    "path": "/etc/ssh/sshd_config",
+    "inode": 182133,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T04:11:17.600164",
+    "uid": 1000,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T08:13:01.600533",
+    "uid": 1006,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T11:39:43.601176",
+    "uid": 1012,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T01:44:03.596505",
+    "uid": 1019,
+    "event_type": "SYSCALL_DENIED",
+    "process": "less",
+    "exe": "/usr/bin/vim",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/usr/bin/curl",
+    "inode": 116269,
+    "audit_id": 1819
+  },
+  {
+    "timestamp": "2025-03-23T09:26:39.599368",
+    "uid": 1013,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T13:35:54.597517",
+    "uid": 1017,
+    "event_type": "AVC_DENIED",
+    "process": "less",
+    "path": "/etc/passwd",
+    "inode": 141052,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T01:40:30.600547",
+    "uid": 1013,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T13:41:58.596565",
+    "uid": 1002,
+    "event_type": "AVC_DENIED",
+    "process": "cp",
+    "path": "/etc/ssh/sshd_config",
+    "inode": 122697,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T18:02:04.600142",
+    "uid": 1006,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T06:43:43.597180",
+    "uid": 1005,
+    "event_type": "AVC_DENIED",
+    "process": "mv",
+    "path": "/etc/crontab",
+    "inode": 180354,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T07:27:02.600431",
+    "uid": 1015,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T15:09:45.596518",
+    "uid": 1003,
+    "event_type": "AVC_DENIED",
+    "process": "vim",
+    "path": "/etc/passwd",
+    "inode": 166613,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T13:42:57.601025",
+    "uid": 1007,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T22:21:07.599347",
+    "uid": 1013,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T13:03:25.600424",
+    "uid": 1013,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T08:28:39.599681",
+    "uid": 1019,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T23:06:25.602165",
+    "uid": 1006,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T18:37:47.599376",
+    "uid": 1011,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T18:54:11.602181",
+    "uid": 1017,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T15:55:50.599865",
+    "uid": 1016,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T16:49:57.598113",
+    "uid": 1006,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cat",
+    "exe": "/usr/bin/vim",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/home/user/.ssh/id_rsa",
+    "inode": 145609,
+    "audit_id": 9995
+  },
+  {
+    "timestamp": "2025-03-24T04:51:17.598876",
+    "uid": 1019,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T23:34:10.599304",
+    "uid": 1010,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T08:17:19.601646",
+    "uid": 1003,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T05:33:21.599217",
+    "uid": 1009,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T16:29:42.599502",
+    "uid": 1019,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T09:52:57.598327",
+    "uid": 1010,
+    "event_type": "AVC_DENIED",
+    "process": "mv",
+    "path": "/bin/bash",
+    "inode": 124111,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T18:19:02.600691",
+    "uid": 1014,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T01:01:42.600877",
+    "uid": 1000,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T08:06:45.597842",
+    "uid": 1000,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cat",
+    "exe": "/usr/bin/nano",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/root/.ssh/authorized_keys",
+    "inode": 133735,
+    "audit_id": 8306
+  },
+  {
+    "timestamp": "2025-03-23T18:09:48.596530",
+    "uid": 1013,
+    "event_type": "AVC_DENIED",
+    "process": "cp",
+    "path": "/etc/passwd",
+    "inode": 163326,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T01:17:22.599102",
+    "uid": 1000,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T08:29:20.601003",
+    "uid": 1004,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T19:05:42.597743",
+    "uid": 1016,
+    "event_type": "SYSCALL_DENIED",
+    "process": "mv",
+    "exe": "/usr/bin/nano",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/root/.bash_history",
+    "inode": 142789,
+    "audit_id": 8790
+  },
+  {
+    "timestamp": "2025-03-23T20:57:57.600484",
+    "uid": 1016,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T02:01:47.601211",
+    "uid": 1003,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T07:42:27.598754",
+    "uid": 1000,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T11:44:44.598729",
+    "uid": 1008,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T00:47:08.602210",
+    "uid": 1005,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T11:05:11.597138",
+    "uid": 1015,
+    "event_type": "AVC_DENIED",
+    "process": "less",
+    "path": "/usr/bin/curl",
+    "inode": 132948,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T07:17:37.600185",
+    "uid": 1018,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T04:50:54.600519",
+    "uid": 1006,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T08:05:30.597798",
+    "uid": 1013,
+    "event_type": "AVC_DENIED",
+    "process": "vim",
+    "path": "/usr/bin/wget",
+    "inode": 197290,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T01:29:41.599455",
+    "uid": 1008,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T14:17:26.596692",
+    "uid": 1005,
+    "event_type": "SYSCALL_DENIED",
+    "process": "mv",
+    "exe": "/usr/bin/nano",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/bin/bash",
+    "inode": 110552,
+    "audit_id": 2175
+  },
+  {
+    "timestamp": "2025-03-23T15:36:51.598970",
+    "uid": 1001,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T01:40:24.596880",
+    "uid": 1009,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cp",
+    "exe": "/bin/mv",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/ssh/sshd_config",
+    "inode": 198539,
+    "audit_id": 7207
+  },
+  {
+    "timestamp": "2025-03-23T23:05:47.596016",
+    "uid": 1019,
+    "event_type": "AVC_DENIED",
+    "process": "cat",
+    "path": "/root/.bash_history",
+    "inode": 167264,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T16:19:45.599362",
+    "uid": 1016,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T07:28:40.602136",
+    "uid": 1002,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T18:54:00.601204",
+    "uid": 1010,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T18:10:59.598905",
+    "uid": 1015,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T23:31:42.600805",
+    "uid": 1001,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T11:20:51.599030",
+    "uid": 1013,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T00:29:52.597397",
+    "uid": 1015,
+    "event_type": "SYSCALL_DENIED",
+    "process": "less",
+    "exe": "/usr/bin/less",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/rc.local",
+    "inode": 120287,
+    "audit_id": 6317
+  },
+  {
+    "timestamp": "2025-03-23T18:40:17.596597",
+    "uid": 1008,
+    "event_type": "SYSCALL_DENIED",
+    "process": "less",
+    "exe": "/usr/bin/nano",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/rc.local",
+    "inode": 144797,
+    "audit_id": 7479
+  },
+  {
+    "timestamp": "2025-03-24T02:24:17.601582",
+    "uid": 1010,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T09:27:57.599447",
+    "uid": 1010,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T02:25:50.598977",
+    "uid": 1008,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T08:54:40.601017",
+    "uid": 1013,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T07:53:40.598897",
+    "uid": 1010,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T21:56:12.600989",
+    "uid": 1016,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T00:39:29.597994",
+    "uid": 1005,
+    "event_type": "AVC_DENIED",
+    "process": "vim",
+    "path": "/etc/crontab",
+    "inode": 149918,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T07:46:25.597951",
+    "uid": 1016,
+    "event_type": "SYSCALL_DENIED",
+    "process": "mv",
+    "exe": "/usr/bin/vim",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/usr/bin/wget",
+    "inode": 142915,
+    "audit_id": 1512
+  },
+  {
+    "timestamp": "2025-03-24T08:13:58.602121",
+    "uid": 1011,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T23:17:48.600554",
+    "uid": 1006,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T03:42:11.596621",
+    "uid": 1015,
+    "event_type": "AVC_DENIED",
+    "process": "less",
+    "path": "/usr/bin/curl",
+    "inode": 186691,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T12:39:24.597000",
+    "uid": 1005,
+    "event_type": "AVC_DENIED",
+    "process": "less",
+    "path": "/bin/bash",
+    "inode": 127788,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T05:29:52.599975",
+    "uid": 1013,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T16:26:38.601273",
+    "uid": 1008,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T08:14:11.600039",
+    "uid": 1007,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T12:16:42.598795",
+    "uid": 1019,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T23:28:38.602411",
+    "uid": 1011,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T13:28:15.601533",
+    "uid": 1011,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T09:30:49.601512",
+    "uid": 1004,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T18:25:51.601404",
+    "uid": 1019,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T22:29:28.597919",
+    "uid": 1002,
+    "event_type": "AVC_DENIED",
+    "process": "less",
+    "path": "/usr/bin/wget",
+    "inode": 190682,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T05:57:40.598047",
+    "uid": 1015,
+    "event_type": "SYSCALL_DENIED",
+    "process": "vim",
+    "exe": "/bin/cp",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/root/.ssh/authorized_keys",
+    "inode": 111432,
+    "audit_id": 6126
+  },
+  {
+    "timestamp": "2025-03-24T03:47:40.601183",
+    "uid": 1019,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T18:12:30.596988",
+    "uid": 1010,
+    "event_type": "SYSCALL_DENIED",
+    "process": "mv",
+    "exe": "/usr/bin/less",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/usr/bin/wget",
+    "inode": 141915,
+    "audit_id": 1089
+  },
+  {
+    "timestamp": "2025-03-24T10:03:19.602277",
+    "uid": 1013,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T10:27:38.598746",
+    "uid": 1014,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T21:11:32.599067",
+    "uid": 1005,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T15:50:00.602069",
+    "uid": 1005,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T10:09:28.599798",
+    "uid": 1003,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T15:41:57.596869",
+    "uid": 1001,
+    "event_type": "AVC_DENIED",
+    "process": "cat",
+    "path": "/etc/hosts",
+    "inode": 198984,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T07:33:00.600676",
+    "uid": 1015,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T21:35:34.602346",
+    "uid": 1016,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T05:51:08.599053",
+    "uid": 1002,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T08:23:41.596586",
+    "uid": 1003,
+    "event_type": "AVC_DENIED",
+    "process": "nano",
+    "path": "/bin/bash",
+    "inode": 106129,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T06:40:23.599433",
+    "uid": 1009,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T01:37:46.597117",
+    "uid": 1001,
+    "event_type": "AVC_DENIED",
+    "process": "less",
+    "path": "/root/.bash_history",
+    "inode": 197451,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T11:30:46.599246",
+    "uid": 1003,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T02:58:50.598862",
+    "uid": 1011,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T22:26:23.598026",
+    "uid": 1015,
+    "event_type": "AVC_DENIED",
+    "process": "less",
+    "path": "/etc/sudoers",
+    "inode": 124905,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T13:16:26.601477",
+    "uid": 1016,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T08:08:34.599355",
+    "uid": 1014,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T13:59:59.597864",
+    "uid": 1001,
+    "event_type": "AVC_DENIED",
+    "process": "less",
+    "path": "/root/.bash_history",
+    "inode": 136228,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T22:09:28.601456",
+    "uid": 1007,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T10:45:59.596166",
+    "uid": 1017,
+    "event_type": "AVC_DENIED",
+    "process": "vim",
+    "path": "/etc/hosts",
+    "inode": 122362,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T17:11:03.599405",
+    "uid": 1016,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T16:48:58.599546",
+    "uid": 1007,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T13:19:20.601368",
+    "uid": 1014,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T00:20:19.600974",
+    "uid": 1002,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T01:09:55.601317",
+    "uid": 1013,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T19:48:00.598838",
+    "uid": 1018,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T00:50:11.600754",
+    "uid": 1010,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T02:52:38.599045",
+    "uid": 1012,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T02:08:10.600365",
+    "uid": 1010,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T09:49:55.600267",
+    "uid": 1019,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T03:11:57.599923",
+    "uid": 1006,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T10:27:26.599596",
+    "uid": 1005,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T23:34:43.597930",
+    "uid": 1000,
+    "event_type": "SYSCALL_DENIED",
+    "process": "less",
+    "exe": "/usr/bin/nano",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/shadow",
+    "inode": 180502,
+    "audit_id": 1830
+  },
+  {
+    "timestamp": "2025-03-24T07:40:29.600526",
+    "uid": 1013,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T18:51:57.601111",
+    "uid": 1007,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T01:24:35.597075",
+    "uid": 1003,
+    "event_type": "SYSCALL_DENIED",
+    "process": "nano",
+    "exe": "/usr/bin/less",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/hosts",
+    "inode": 149701,
+    "audit_id": 2978
+  },
+  {
+    "timestamp": "2025-03-24T01:54:20.602158",
+    "uid": 1003,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T20:42:24.601309",
+    "uid": 1002,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T10:50:49.601302",
+    "uid": 1019,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T01:05:57.596139",
+    "uid": 1002,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cp",
+    "exe": "/usr/bin/vim",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/home/user/.bashrc",
+    "inode": 106472,
+    "audit_id": 4610
+  },
+  {
+    "timestamp": "2025-03-23T11:52:04.599333",
+    "uid": 1015,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T08:07:41.600617",
+    "uid": 1010,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T18:39:03.597506",
+    "uid": 1002,
+    "event_type": "AVC_DENIED",
+    "process": "nano",
+    "path": "/etc/hosts",
+    "inode": 136651,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T03:54:55.600237",
+    "uid": 1011,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T08:21:31.600352",
+    "uid": 1009,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T23:50:56.595960",
+    "uid": 1014,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cat",
+    "exe": "/usr/bin/cat",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/usr/bin/wget",
+    "inode": 192320,
+    "audit_id": 3651
+  },
+  {
+    "timestamp": "2025-03-24T06:01:04.599982",
+    "uid": 1016,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T13:01:30.601162",
+    "uid": 1015,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T13:03:47.602106",
+    "uid": 1007,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T03:09:39.600171",
+    "uid": 1017,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T19:46:17.600996",
+    "uid": 1013,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T08:36:04.598348",
+    "uid": 1002,
+    "event_type": "AVC_DENIED",
+    "process": "cat",
+    "path": "/etc/passwd",
+    "inode": 111562,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T03:37:25.596777",
+    "uid": 1007,
+    "event_type": "SYSCALL_DENIED",
+    "process": "vim",
+    "exe": "/bin/mv",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/home/user/.ssh/id_rsa",
+    "inode": 124517,
+    "audit_id": 8103
+  },
+  {
+    "timestamp": "2025-03-23T16:11:38.600849",
+    "uid": 1011,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T04:13:27.602151",
+    "uid": 1019,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T09:40:44.599689",
+    "uid": 1004,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T10:08:35.600409",
+    "uid": 1012,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T09:33:32.602418",
+    "uid": 1005,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T08:26:17.597149",
+    "uid": 1010,
+    "event_type": "SYSCALL_DENIED",
+    "process": "less",
+    "exe": "/bin/cp",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/crontab",
+    "inode": 101478,
+    "audit_id": 5344
+  },
+  {
+    "timestamp": "2025-03-23T12:50:20.599480",
+    "uid": 1014,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T21:50:30.599009",
+    "uid": 1015,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T14:54:32.600251",
+    "uid": 1012,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T12:08:39.599224",
+    "uid": 1012,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T22:30:40.599653",
+    "uid": 1001,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T23:51:52.596725",
+    "uid": 1017,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cp",
+    "exe": "/bin/mv",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/home/user/.bashrc",
+    "inode": 183714,
+    "audit_id": 5717
+  },
+  {
+    "timestamp": "2025-03-23T08:41:17.600856",
+    "uid": 1004,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T19:35:02.600498",
+    "uid": 1012,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T07:39:02.600769",
+    "uid": 1005,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T12:18:56.597021",
+    "uid": 1014,
+    "event_type": "AVC_DENIED",
+    "process": "nano",
+    "path": "/usr/bin/curl",
+    "inode": 149886,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T00:13:52.599567",
+    "uid": 1005,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T21:25:46.601331",
+    "uid": 1019,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T09:08:09.596681",
+    "uid": 1011,
+    "event_type": "AVC_DENIED",
+    "process": "less",
+    "path": "/root/.ssh/authorized_keys",
+    "inode": 147451,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T16:34:52.601632",
+    "uid": 1015,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T00:18:27.600960",
+    "uid": 1002,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T00:22:56.599582",
+    "uid": 1004,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T08:40:22.598037",
+    "uid": 1012,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cat",
+    "exe": "/usr/bin/vim",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/ssh/sshd_config",
+    "inode": 155706,
+    "audit_id": 5647
+  },
+  {
+    "timestamp": "2025-03-24T07:23:32.600705",
+    "uid": 1016,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T08:32:50.599095",
+    "uid": 1017,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T09:42:11.599131",
+    "uid": 1006,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T19:15:29.596715",
+    "uid": 1013,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cp",
+    "exe": "/bin/mv",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/root/.bash_history",
+    "inode": 171491,
+    "audit_id": 8086
+  },
+  {
+    "timestamp": "2025-03-23T19:53:01.601132",
+    "uid": 1018,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T06:39:46.601118",
+    "uid": 1015,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T04:12:30.601375",
+    "uid": 1004,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T22:30:35.596704",
+    "uid": 1009,
+    "event_type": "AVC_DENIED",
+    "process": "nano",
+    "path": "/etc/rc.local",
+    "inode": 196907,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T13:03:21.600698",
+    "uid": 1013,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T03:15:31.598802",
+    "uid": 1012,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T06:43:28.599931",
+    "uid": 1012,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T05:52:07.600648",
+    "uid": 1002,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T07:13:14.597580",
+    "uid": 1013,
+    "event_type": "AVC_DENIED",
+    "process": "less",
+    "path": "/etc/shadow",
+    "inode": 189931,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T07:20:31.601032",
+    "uid": 1010,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T09:09:41.598927",
+    "uid": 1017,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T01:29:12.599016",
+    "uid": 1012,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T04:51:41.597591",
+    "uid": 1014,
+    "event_type": "SYSCALL_DENIED",
+    "process": "nano",
+    "exe": "/bin/mv",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/sudoers",
+    "inode": 120721,
+    "audit_id": 6063
+  },
+  {
+    "timestamp": "2025-03-24T10:57:24.599967",
+    "uid": 1000,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T15:07:55.601618",
+    "uid": 1008,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T11:21:54.597612",
+    "uid": 1007,
+    "event_type": "AVC_DENIED",
+    "process": "vim",
+    "path": "/var/log/syslog",
+    "inode": 119168,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T13:56:23.597206",
+    "uid": 1001,
+    "event_type": "AVC_DENIED",
+    "process": "cp",
+    "path": "/root/.bash_history",
+    "inode": 137482,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T07:37:53.600953",
+    "uid": 1008,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T07:33:39.600446",
+    "uid": 1015,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T08:50:52.599274",
+    "uid": 1005,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T18:48:15.597644",
+    "uid": 1007,
+    "event_type": "AVC_DENIED",
+    "process": "mv",
+    "path": "/home/user/.bashrc",
+    "inode": 157467,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T07:27:12.598102",
+    "uid": 1012,
+    "event_type": "SYSCALL_DENIED",
+    "process": "mv",
+    "exe": "/usr/bin/less",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/rc.local",
+    "inode": 126611,
+    "audit_id": 8658
+  },
+  {
+    "timestamp": "2025-03-24T09:50:06.599397",
+    "uid": 1002,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T07:23:09.601397",
+    "uid": 1005,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T02:05:00.600927",
+    "uid": 1010,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T23:47:38.599820",
+    "uid": 1016,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T02:43:31.596152",
+    "uid": 1011,
+    "event_type": "SYSCALL_DENIED",
+    "process": "less",
+    "exe": "/bin/cp",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/var/log/auth.log",
+    "inode": 186544,
+    "audit_id": 6776
+  },
+  {
+    "timestamp": "2025-03-23T15:58:12.596891",
+    "uid": 1019,
+    "event_type": "AVC_DENIED",
+    "process": "vim",
+    "path": "/usr/bin/curl",
+    "inode": 107048,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T12:00:00.601103",
+    "uid": 1000,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T05:02:33.602311",
+    "uid": 1015,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T04:59:41.599953",
+    "uid": 1014,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T04:04:07.601411",
+    "uid": 1003,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T09:54:54.597127",
+    "uid": 1008,
+    "event_type": "AVC_DENIED",
+    "process": "less",
+    "path": "/usr/bin/wget",
+    "inode": 199074,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T10:46:54.598737",
+    "uid": 1012,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T05:39:54.599717",
+    "uid": 1015,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T01:40:36.599167",
+    "uid": 1019,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T10:12:38.595943",
+    "uid": 1003,
+    "event_type": "SYSCALL_DENIED",
+    "process": "vim",
+    "exe": "/usr/bin/less",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/bin/bash",
+    "inode": 173568,
+    "audit_id": 2214
+  },
+  {
+    "timestamp": "2025-03-23T13:10:47.600870",
+    "uid": 1003,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T10:51:27.599625",
+    "uid": 1000,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T23:58:09.599660",
+    "uid": 1004,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T09:01:37.599639",
+    "uid": 1015,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T10:27:01.598378",
+    "uid": 1010,
+    "event_type": "AVC_DENIED",
+    "process": "cp",
+    "path": "/etc/passwd",
+    "inode": 150234,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T08:59:49.600505",
+    "uid": 1019,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T13:19:58.600075",
+    "uid": 1004,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T17:18:23.601441",
+    "uid": 1019,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T06:50:44.600118",
+    "uid": 1002,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T17:38:39.600733",
+    "uid": 1011,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T23:25:20.599238",
+    "uid": 1018,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T10:02:27.597215",
+    "uid": 1005,
+    "event_type": "AVC_DENIED",
+    "process": "less",
+    "path": "/etc/sudoers",
+    "inode": 114555,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T10:47:16.599760",
+    "uid": 1006,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T15:55:06.600061",
+    "uid": 1019,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T13:41:46.601190",
+    "uid": 1016,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T03:49:23.602050",
+    "uid": 1012,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T07:55:27.599696",
+    "uid": 1016,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T21:16:19.599539",
+    "uid": 1015,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T09:57:55.597160",
+    "uid": 1011,
+    "event_type": "AVC_DENIED",
+    "process": "vim",
+    "path": "/root/.ssh/authorized_keys",
+    "inode": 170534,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T17:24:08.600761",
+    "uid": 1016,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T05:25:17.595975",
+    "uid": 1002,
+    "event_type": "AVC_DENIED",
+    "process": "vim",
+    "path": "/etc/crontab",
+    "inode": 167402,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T20:19:33.600885",
+    "uid": 1009,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T21:00:37.597065",
+    "uid": 1016,
+    "event_type": "SYSCALL_DENIED",
+    "process": "less",
+    "exe": "/bin/cp",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/var/log/syslog",
+    "inode": 136162,
+    "audit_id": 5164
+  },
+  {
+    "timestamp": "2025-03-24T06:48:59.598400",
+    "uid": 1010,
+    "event_type": "AVC_DENIED",
+    "process": "cp",
+    "path": "/etc/shadow",
+    "inode": 141293,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T21:19:06.598986",
+    "uid": 1008,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T23:32:26.599827",
+    "uid": 1015,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T10:40:20.597474",
+    "uid": 1008,
+    "event_type": "SYSCALL_DENIED",
+    "process": "vim",
+    "exe": "/bin/mv",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/root/.ssh/authorized_keys",
+    "inode": 197871,
+    "audit_id": 2373
+  },
+  {
+    "timestamp": "2025-03-24T09:12:36.600344",
+    "uid": 1015,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T09:53:31.599724",
+    "uid": 1003,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T09:10:14.598081",
+    "uid": 1019,
+    "event_type": "AVC_DENIED",
+    "process": "cp",
+    "path": "/etc/crontab",
+    "inode": 176557,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T06:21:33.599767",
+    "uid": 1016,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T21:07:55.598786",
+    "uid": 1006,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T16:58:44.600568",
+    "uid": 1011,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T15:51:56.601225",
+    "uid": 1018,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T01:39:15.599289",
+    "uid": 1001,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T16:38:17.600439",
+    "uid": 1016,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T10:07:58.599894",
+    "uid": 1001,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T19:37:40.598282",
+    "uid": 1004,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cp",
+    "exe": "/bin/mv",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/sudoers",
+    "inode": 104949,
+    "audit_id": 1488
+  },
+  {
+    "timestamp": "2025-03-23T23:32:39.596003",
+    "uid": 1013,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cat",
+    "exe": "/usr/bin/cat",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/usr/bin/curl",
+    "inode": 109953,
+    "audit_id": 3548
+  },
+  {
+    "timestamp": "2025-03-23T22:35:36.599174",
+    "uid": 1009,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T21:36:26.600655",
+    "uid": 1016,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T05:05:26.599916",
+    "uid": 1019,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T04:02:52.599524",
+    "uid": 1006,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T08:02:17.600358",
+    "uid": 1005,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T08:58:22.601046",
+    "uid": 1007,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T15:38:30.602233",
+    "uid": 1011,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T12:11:14.599632",
+    "uid": 1008,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T09:02:34.600199",
+    "uid": 1017,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T09:00:28.602361",
+    "uid": 1006,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T09:55:18.599340",
+    "uid": 1005,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T09:32:08.602291",
+    "uid": 1017,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T14:27:03.597277",
+    "uid": 1008,
+    "event_type": "AVC_DENIED",
+    "process": "nano",
+    "path": "/etc/rc.local",
+    "inode": 153716,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T11:57:07.600684",
+    "uid": 1013,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T08:11:15.600372",
+    "uid": 1010,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T03:33:30.601087",
+    "uid": 1007,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T06:04:34.600090",
+    "uid": 1002,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T22:24:13.599553",
+    "uid": 1006,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T20:08:49.600582",
+    "uid": 1003,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T05:07:53.601484",
+    "uid": 1002,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T10:37:43.599109",
+    "uid": 1012,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T22:15:50.600230",
+    "uid": 1003,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T15:46:14.602084",
+    "uid": 1015,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T08:52:15.600747",
+    "uid": 1007,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T09:45:18.600317",
+    "uid": 1012,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T21:12:12.598249",
+    "uid": 1009,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cp",
+    "exe": "/usr/bin/nano",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/hosts",
+    "inode": 149282,
+    "audit_id": 8402
+  },
+  {
+    "timestamp": "2025-03-23T13:18:09.597666",
+    "uid": 1013,
+    "event_type": "AVC_DENIED",
+    "process": "vim",
+    "path": "/root/.bash_history",
+    "inode": 179664,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T21:24:18.597107",
+    "uid": 1007,
+    "event_type": "AVC_DENIED",
+    "process": "less",
+    "path": "/bin/bash",
+    "inode": 168729,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T06:11:12.598005",
+    "uid": 1011,
+    "event_type": "AVC_DENIED",
+    "process": "cat",
+    "path": "/root/.ssh/authorized_keys",
+    "inode": 125721,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T00:47:45.597486",
+    "uid": 1018,
+    "event_type": "SYSCALL_DENIED",
+    "process": "nano",
+    "exe": "/bin/cp",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/sudoers",
+    "inode": 176519,
+    "audit_id": 7068
+  },
+  {
+    "timestamp": "2025-03-24T06:28:51.600004",
+    "uid": 1002,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T03:05:14.598831",
+    "uid": 1006,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T01:43:07.599390",
+    "uid": 1005,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T11:32:06.602189",
+    "uid": 1001,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T11:40:35.600791",
+    "uid": 1007,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T11:01:05.599731",
+    "uid": 1009,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T20:21:06.599188",
+    "uid": 1014,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T03:38:40.599268",
+    "uid": 1004,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T08:13:50.598949",
+    "uid": 1003,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T10:14:20.600127",
+    "uid": 1001,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T12:10:52.597011",
+    "uid": 1004,
+    "event_type": "AVC_DENIED",
+    "process": "vim",
+    "path": "/etc/shadow",
+    "inode": 187040,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T10:52:57.600215",
+    "uid": 1012,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T00:38:28.596670",
+    "uid": 1016,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cat",
+    "exe": "/bin/mv",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/root/.bash_history",
+    "inode": 139338,
+    "audit_id": 9148
+  },
+  {
+    "timestamp": "2025-03-24T02:05:42.599880",
+    "uid": 1018,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T07:11:35.597623",
+    "uid": 1001,
+    "event_type": "AVC_DENIED",
+    "process": "less",
+    "path": "/root/.ssh/authorized_keys",
+    "inode": 171530,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T09:39:31.599848",
+    "uid": 1010,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T11:21:36.600207",
+    "uid": 1009,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T02:05:07.601639",
+    "uid": 1002,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T15:58:52.597170",
+    "uid": 1010,
+    "event_type": "AVC_DENIED",
+    "process": "vim",
+    "path": "/var/log/syslog",
+    "inode": 173604,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T03:13:07.597820",
+    "uid": 1004,
+    "event_type": "AVC_DENIED",
+    "process": "mv",
+    "path": "/var/log/auth.log",
+    "inode": 194482,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T23:03:26.600981",
+    "uid": 1007,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T01:19:36.596461",
+    "uid": 1006,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cp",
+    "exe": "/usr/bin/vim",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/usr/bin/wget",
+    "inode": 144453,
+    "audit_id": 4937
+  },
+  {
+    "timestamp": "2025-03-23T22:32:08.598721",
+    "uid": 1017,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T02:13:21.600156",
+    "uid": 1003,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T10:16:55.601418",
+    "uid": 1012,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T13:19:06.598271",
+    "uid": 1008,
+    "event_type": "SYSCALL_DENIED",
+    "process": "mv",
+    "exe": "/usr/bin/less",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/crontab",
+    "inode": 146310,
+    "audit_id": 5739
+  },
+  {
+    "timestamp": "2025-03-23T10:32:39.602390",
+    "uid": 1003,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T13:36:18.599202",
+    "uid": 1017,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T01:07:36.597042",
+    "uid": 1007,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cat",
+    "exe": "/usr/bin/vim",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/shadow",
+    "inode": 122287,
+    "audit_id": 4728
+  },
+  {
+    "timestamp": "2025-03-23T10:40:48.596047",
+    "uid": 1010,
+    "event_type": "AVC_DENIED",
+    "process": "nano",
+    "path": "/etc/crontab",
+    "inode": 176184,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T03:20:57.598368",
+    "uid": 1004,
+    "event_type": "AVC_DENIED",
+    "process": "mv",
+    "path": "/bin/bash",
+    "inode": 102496,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T16:43:54.602298",
+    "uid": 1014,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T17:13:37.600395",
+    "uid": 1008,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T11:57:22.599124",
+    "uid": 1009,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T07:51:29.597430",
+    "uid": 1007,
+    "event_type": "SYSCALL_DENIED",
+    "process": "nano",
+    "exe": "/usr/bin/nano",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/sudoers",
+    "inode": 141718,
+    "audit_id": 5259
+  },
+  {
+    "timestamp": "2025-03-23T17:34:25.601125",
+    "uid": 1015,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T00:43:59.601259",
+    "uid": 1008,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T09:00:42.600274",
+    "uid": 1000,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T18:07:51.597962",
+    "uid": 1004,
+    "event_type": "SYSCALL_DENIED",
+    "process": "less",
+    "exe": "/usr/bin/less",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/ssh/sshd_config",
+    "inode": 189403,
+    "audit_id": 2704
+  },
+  {
+    "timestamp": "2025-03-23T11:32:17.598092",
+    "uid": 1011,
+    "event_type": "AVC_DENIED",
+    "process": "less",
+    "path": "/home/user/.bashrc",
+    "inode": 197088,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T23:09:01.599908",
+    "uid": 1011,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T03:41:25.599195",
+    "uid": 1014,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T21:58:25.597700",
+    "uid": 1004,
+    "event_type": "AVC_DENIED",
+    "process": "less",
+    "path": "/usr/bin/wget",
+    "inode": 116575,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T08:09:10.601010",
+    "uid": 1011,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T08:53:14.602099",
+    "uid": 1011,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T11:20:13.600967",
+    "uid": 1015,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T13:15:15.600726",
+    "uid": 1006,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T23:53:41.599989",
+    "uid": 1005,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T22:51:22.596609",
+    "uid": 1017,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cp",
+    "exe": "/bin/mv",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/var/log/syslog",
+    "inode": 147489,
+    "audit_id": 4388
+  },
+  {
+    "timestamp": "2025-03-23T09:02:20.600589",
+    "uid": 1001,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T09:14:49.602171",
+    "uid": 1003,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T11:12:24.601434",
+    "uid": 1006,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T04:49:01.598816",
+    "uid": 1015,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T03:02:27.601253",
+    "uid": 1010,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T07:07:44.600892",
+    "uid": 1019,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T21:51:21.596902",
+    "uid": 1001,
+    "event_type": "AVC_DENIED",
+    "process": "mv",
+    "path": "/etc/shadow",
+    "inode": 118432,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T21:15:53.595989",
+    "uid": 1015,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cp",
+    "exe": "/usr/bin/vim",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/var/log/syslog",
+    "inode": 141428,
+    "audit_id": 1418
+  },
+  {
+    "timestamp": "2025-03-24T00:26:00.601338",
+    "uid": 1005,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T11:22:53.601198",
+    "uid": 1016,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T08:51:20.597633",
+    "uid": 1008,
+    "event_type": "SYSCALL_DENIED",
+    "process": "mv",
+    "exe": "/usr/bin/vim",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/root/.ssh/authorized_keys",
+    "inode": 134949,
+    "audit_id": 6554
+  },
+  {
+    "timestamp": "2025-03-23T17:41:18.600417",
+    "uid": 1018,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T20:05:24.599209",
+    "uid": 1008,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T20:01:12.602354",
+    "uid": 1009,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T12:50:31.597031",
+    "uid": 1013,
+    "event_type": "AVC_DENIED",
+    "process": "cat",
+    "path": "/etc/passwd",
+    "inode": 193453,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T14:02:58.599116",
+    "uid": 1001,
+    "event_type": "USER_START",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T21:25:22.600834",
+    "uid": 1010,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T17:28:26.596204",
+    "uid": 1017,
+    "event_type": "SYSCALL_DENIED",
+    "process": "vim",
+    "exe": "/bin/cp",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/root/.bash_history",
+    "inode": 139903,
+    "audit_id": 1395
+  },
+  {
+    "timestamp": "2025-03-24T02:51:40.597983",
+    "uid": 1018,
+    "event_type": "SYSCALL_DENIED",
+    "process": "vim",
+    "exe": "/usr/bin/cat",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/var/log/syslog",
+    "inode": 167286,
+    "audit_id": 1740
+  },
+  {
+    "timestamp": "2025-03-23T20:09:22.601602",
+    "uid": 1011,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T23:16:31.599487",
+    "uid": 1001,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T01:37:01.600718",
+    "uid": 1017,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T08:35:46.598168",
+    "uid": 1005,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cp",
+    "exe": "/usr/bin/less",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/hosts",
+    "inode": 164340,
+    "audit_id": 2751
+  },
+  {
+    "timestamp": "2025-03-24T05:08:51.599261",
+    "uid": 1005,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T20:38:09.599470",
+    "uid": 1004,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T03:36:49.600934",
+    "uid": 1012,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T13:02:58.597053",
+    "uid": 1017,
+    "event_type": "SYSCALL_DENIED",
+    "process": "cat",
+    "exe": "/usr/bin/less",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/etc/crontab",
+    "inode": 142140,
+    "audit_id": 1742
+  },
+  {
+    "timestamp": "2025-03-24T10:07:31.596738",
+    "uid": 1004,
+    "event_type": "AVC_DENIED",
+    "process": "cp",
+    "path": "/usr/bin/curl",
+    "inode": 188798,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T13:07:17.599674",
+    "uid": 1004,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T15:32:21.597885",
+    "uid": 1013,
+    "event_type": "SYSCALL_DENIED",
+    "process": "vim",
+    "exe": "/usr/bin/nano",
+    "syscall": "open",
+    "result": "failed",
+    "exit_code": -13,
+    "cwd": "/home/user",
+    "path": "/var/log/syslog",
+    "inode": 114776,
+    "audit_id": 4994
+  },
+  {
+    "timestamp": "2025-03-23T18:30:01.598016",
+    "uid": 1013,
+    "event_type": "AVC_DENIED",
+    "process": "cp",
+    "path": "/etc/passwd",
+    "inode": 130105,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-23T16:57:07.601561",
+    "uid": 1013,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T00:31:54.602128",
+    "uid": 1008,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T18:57:00.600712",
+    "uid": 1010,
+    "event_type": "CRED_DISP",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T07:11:56.601448",
+    "uid": 1000,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T11:08:38.601066",
+    "uid": 1010,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T15:38:59.598808",
+    "uid": 1003,
+    "event_type": "USER_ACCT",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T21:47:36.599560",
+    "uid": 1002,
+    "event_type": "CRED_ACQ",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T10:29:31.601039",
+    "uid": 1016,
+    "event_type": "USER_CMD",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-24T03:07:48.598411",
+    "uid": 1011,
+    "event_type": "AVC_DENIED",
+    "process": "vim",
+    "path": "/etc/ssh/sshd_config",
+    "inode": 158092,
+    "details": {
+      "device": "sda1",
+      "scontext": "unconfined_u:unconfined_r:unconfined_t:s0",
+      "tcontext": "system_u:object_r:shadow_t:s0",
+      "tclass": "file",
+      "operation": "read",
+      "result": "denied"
+    }
+  },
+  {
+    "timestamp": "2025-03-24T00:26:45.600625",
+    "uid": 1018,
+    "event_type": "USER_END",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  },
+  {
+    "timestamp": "2025-03-23T16:03:32.602217",
+    "uid": 1001,
+    "event_type": "USER_LOGIN",
+    "process": "/usr/bin/bash",
+    "result": "success",
+    "terminal": "pts/1"
+  }
+]

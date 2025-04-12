@@ -1,1 +1,1 @@
-# 90-Days-SOC-Challenge-Beginner-
+# 30-Days-SOC-Challenge-Beginner

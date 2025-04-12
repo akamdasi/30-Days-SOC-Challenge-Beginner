@@ -9,7 +9,7 @@ The objective of this lab is to introduce students to **Wireshark**, a powerful 
 
 ## **▶️Video Tutorial**
 
-[[![▶️Watch the video]https://www.youtube.com/watch?v=lb1Dw0elw0Q&list=PLR0bgGon_WTK9PHDzrlje4bqEh3p0NxxX&ab_channel=VinsloevAcademy
+https://www.youtube.com/watch?v=OU-A2EmVrKQ&list=PLW8bTPfXNGdC5Co0VnBK1yVzAwSSphzpJ&ab_channel=ChrisGreer
 ---
 
 ## 🛠️ **Lab Setup**
